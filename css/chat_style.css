@@ -1,0 +1,55 @@
+.container {
+	margin: 0 auto;
+	width: 80%;
+	background: #ddd;
+	border-radius: 5px;
+	padding: 10px;
+	resize: vertical;
+}
+
+input[type=text], input[type=submit]{
+	font-size: 1.4em;
+	text-align: left;
+	margin: 10px auto 0 auto;
+	padding: 4px;
+	display: inline;
+	font-family: verdana;
+}
+input[type=text]{
+	width: 70%;
+	font-style: italic;
+	border-bottom: 1px solid #666;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 0px;
+	background: #eee;
+	resize: vertical;
+}
+
+input[type=submit]{
+	width: 15%;
+	text-align: center;
+	font-family: verdana;
+}
+
+
+#response {
+	margin: 0 auto;
+	height: 8em;
+	width: 95%;
+	padding: 5px;
+	border: 0px solid #eee;
+	font-family: Verdana;
+	font-size: 1.4em;
+	overflow: auto;
+	background: rgba(255,255,255,.5);
+	resize: vertical;
+}
+
+.blue {
+	color: blue;
+}
+
+.red {
+	color: red;
+}
